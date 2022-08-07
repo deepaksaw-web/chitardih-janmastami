@@ -1,0 +1,379 @@
+@import url('https://fonts.googleapis.com/css2?family=Edu+NSW+ACT+Foundation:wght@500;700&family=Roboto:wght@500&family=Rubik+Moonrocks&display=swap');
+body { 
+  background:#fff !important;
+  font-family: 'Roboto', sans-serif;
+/*border: 2px solid #ffffffa6 !important;*/
+
+margin: 0 auto;
+margin-top: 7px;
+}
+  
+.ccw_wishes {
+  content: " ";
+ background: url(img/conf.webp) !important;
+  background-color: rgba(0, 0, 0, 0);
+  width: 100%;
+  height: 100%;
+  display: block;
+  position: absolute;
+  background-position: center center;
+  background-color: rgba(69, 39, 160, 0.5) !important;
+  background-color: #fff !important;
+
+
+}
+
+.card  {
+  transition: all .15s ease-in-out;
+}
+.card {
+  position: relative;
+ /* margin-bottom: 25px;*/
+  border-radius: 2px;
+  display: block;
+  margin-top: -15px;
+ /* overflow: hidden;*/
+}
+h1{ text-align: center; color: white; font-size: 30px;  }
+.mainImg {
+  width: 90%;
+  margin: 0 auto;
+  display: block;
+  margin-top: 10px;
+}
+
+.yourname{ text-align: center;  color: #fff33d;padding-top: 15px;}
+.msg{font-family: 'Edu NSW ACT Foundation', cursive; text-align: center; color: #545151; font-size: 23px; letter-spacing: 0.5px; padding: 10px 20px 0px 20px; margin-top: 5px;}
+
+.ads-section {
+  padding-bottom: 10px;
+}
+.bfont {
+  font-size: 24px;
+  line-height: 55px;
+  font-weight: bold;
+  font-family: 'Roboto', sans-serif;
+}
+#fade-images {
+  list-style: none;
+    list-style-type: none;
+  list-style-type: none;
+  text-align: center;
+  padding: 0;
+  margin-top: 100px;
+}
+
+.tbox {
+background: #eeeeeed9;
+padding: 2px 12px 16px 12px;
+border-radius: 5px;
+margin: 0px 8px;
+}
+.backLink {
+  background: #751201a1;
+  padding: 2px 12px 16px 12px;
+    padding-top: 2px;
+  border-radius: 5px;
+  margin: 0px 8px;
+  display: block;
+  text-align: center;
+  text-transform: uppercase;
+  text-decoration: none;
+  padding-top: 15px;
+  color: #fff;
+}
+a.backLink:hover{
+  background: #eeeeeec9;
+  color: #333;
+}
+.textbk {
+  border: none;
+  height: 30px;
+  padding: 5px 12px;
+  font-size: 15px;
+  border-radius: 5px;
+  width: 60%;
+
+}
+.btn {
+  width: 100px;
+  height: 40px;
+   border: none;
+  background: #333;
+  color: #fff;
+  border-radius: 5px;
+  width: 30%;
+}
+
+.st-disclaimer, .st-logo {
+  display: none;
+}
+.shareon{ text-align: center; }
+
+figure {
+  animation: wobble 5s ease-in-out infinite;
+  transform-origin: center center;
+  transform-style: preserve-3d;
+  margin: 0;
+    margin-top: 0px;
+    margin-bottom: 0px;
+  margin-top: 10px !important;
+  margin-bottom: 10px !important;
+}
+
+h2.naming {
+  display: block;
+  width: 100%;
+  
+  color: #fff;
+}
+
+h2.naming {
+  /*animation: glow 10s ease-in-out infinite;*/
+}
+ 
+ @keyframes wobble {
+ 0%,
+ 100% {
+  transform:rotate3d(1,1,0,20deg)
+ }
+ 25% {
+  transform:rotate3d(-1,1,0,20deg)
+ }
+ 50% {
+  transform:rotate3d(-1,-1,0,20deg)
+ }
+ 75% {
+  transform:rotate3d(1,-1,0,20deg)
+ }
+}
+h2.naming {
+ animation:glow 10s ease-in-out infinite;
+}
+@keyframes glow {
+ 0%,
+ 100% {
+  text-shadow:0 0 10px #c62828
+ }
+ 25% {
+  text-shadow:0 0 10px #ef6c00
+ }
+ 50% {
+  text-shadow:0 0 10px #2e7d32
+ }
+ 75% {
+  text-shadow:0 0 10px #4527a0
+ }
+}
+h2.naming {
+ /*! display:block; */width:100%;
+ line-height:1.5;
+ text-align:CENTER;
+ /*! font:900 35px concert one,sans-serif; */position:absolute;
+ color:#fff
+}
+h2.naming:nth-child(2) {
+ transform:translateZ(5px)
+}
+h2.naming:nth-child(3) {
+ transform:translateZ(10px)
+}
+
+.figures {
+ position:relative;
+ z-index:2;
+ text-align:center;
+ padding-bottom:13px
+}
+
+
+.animated.infinite {
+  -webkit-animation-iteration-count: infinite;
+  animation-iteration-count: infinite;
+}
+.pulse {
+  -webkit-animation-name: pulse;
+  animation-name: pulse;
+}
+.animated {
+  -webkit-animation-duration: 1s;
+  animation-duration: 1s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+}
+.center { text-align: center; }
+
+
+.title-word {
+  font-family: 'Rubik Moonrocks', cursive;
+  animation: color-animation 4s linear infinite;
+}
+
+.title-word-1 {
+  --color-1: #DF8453;
+  --color-2: #fc8922;
+  --color-3: #E4A9A8;
+}
+
+.title-word-2 {
+  --color-1: #AB8D4C;
+  --color-2: #ACCFCB;
+  --color-3: #9BD08D;
+}
+
+.title-word-3 {
+  --color-1: #445597;
+--color-2: #C18E8D;
+--color-3: #5C9C95;
+}
+
+.title-word-4 {
+  --color-1: #0f8b16;
+--color-2: #DF8453;
+--color-3: #fc8922;
+}
+.title-word-4 {
+  font-family: 'Rubik Moonrocks', cursive;
+  font-size: 34px;
+}
+@keyframes color-animation {
+  0%    {color: var(--color-1)}
+  32%   {color: var(--color-1)}
+  33%   {color: var(--color-2)}
+  65%   {color: var(--color-2)}
+  66%   {color: var(--color-3)}
+  99%   {color: var(--color-3)}
+  100%  {color: var(--color-1)}
+}
+
+/* Here are just some visual styles. ðŸ–Œ */
+
+ 
+
+.title {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 800;
+  font-size: 26px;
+  text-transform: uppercase;
+  margin: -5px auto;
+}
+.title-word-4{ font-size: 28px; }
+.animate-charcter
+{
+   text-transform: uppercase;
+  background-image: linear-gradient( -225deg, #231557 0%, #645D5D 29%, #fc8922 67%, #0f8b16 100% );
+  background-size: auto auto;
+  background-clip: border-box;
+  background-size: 200% auto;
+  color: #fff;
+  background-clip: text;
+  text-fill-color: transparent;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: textclip 6s linear infinite;
+  font-size: 22px;
+  
+ 
+}
+
+@keyframes textclip {
+  to {
+    background-position: 200% center;
+  }
+}
+
+
+
+#svg-spinner{
+  -webkit-transition-property: -webkit-transform;
+  -webkit-transition-duration: 10s;
+  -webkit-animation-name: rotate;
+  -webkit-animation-iteration-count: infinite;
+  -webkit-animation-timing-function: linear;
+  
+  -moz-transition-property: -moz-transform;
+  -moz-animation-name: rotate; 
+  -moz-animation-duration: 10s; 
+  -moz-animation-iteration-count: infinite;
+  -moz-animation-timing-function: linear;
+  
+  transition-property: transform;
+  animation-name: rotate; 
+  animation-duration: 10s; 
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
+
+@-webkit-keyframes rotate {
+    from {-webkit-transform: rotate(0deg);}
+    to {-webkit-transform: rotate(360deg);}
+}
+
+@-moz-keyframes rotate {
+    from {-moz-transform: rotate(0deg);}
+    to {-moz-transform: rotate(360deg);}
+}
+
+@keyframes rotate {
+    from {transform: rotate(0deg);}
+    to {transform: rotate(360deg);}
+}
+
+
+ 
+/* spinner positioning */
+#html-spinner, #svg-spinner{
+position: absolute;
+top: 292px;
+margin-left: 44.5%;
+width: 20%;
+z-index: 0;
+}
+.wheel2 {
+  margin-left: 75.5% !important;
+}
+#svg-spinner{
+  left:-20%; 
+}
+
+
+
+/* Media Query */
+
+@media (min-width: 1281px) {
+  body { 
+    border: 2px solid #8c8787a6 !important;
+    width: 380px;
+  }
+}
+
+/*
+##Device = Laptops, Desktops
+##Screen = B/w 1025px to 1280px
+*/
+@media (min-width: 1025px) and (max-width: 1280px) {
+  body { 
+    border: 2px solid #8c8787a6 !important;
+    width: 380px;
+  }
+}
+
+/*
+##Device = Tablets, Ipads (portrait)
+##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1024px)  and (orientation: portrait) {
+  body { 
+    border: 2px solid #8c8787a6 !important;
+    width: 380px;
+  }
+}
+@media (min-width: 1024px) {
+  body { 
+    border: 2px solid #8c8787a6 !important;
+    width: 380px;
+  }
+}
+
+ 
